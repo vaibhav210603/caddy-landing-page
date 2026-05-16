@@ -20,25 +20,10 @@
   gap: 14px;
 }
 
-.crest {
-  width: 22px;
-  height: 22px;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 12px;
-  line-height: 1;
+.logo {
+  object-fit: contain;
 }
 
-.name {
-  font-family: var(--serif);
-  font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.02em;
-}
 
 .navLinks {
   list-style: none;

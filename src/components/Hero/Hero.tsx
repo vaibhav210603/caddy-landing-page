@@ -252,8 +252,8 @@ export default function Hero() {
             <a className={styles.btnPrimary} href="#cta">
               Order the Caddy <span className={styles.arr}></span>
             </a>
-            <a className={styles.btnGhost} href="#tasting">Tasting notes</a>
           </div>
+
 
           <div className={`${styles.tele} ${styles.rightTele}`}>
             <div>

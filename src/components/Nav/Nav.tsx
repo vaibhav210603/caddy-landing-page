@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './Nav.module.css'
 
 export default function Nav() {
@@ -5,11 +6,16 @@ export default function Nav() {
     <nav className={styles.nav}>
       <div className={`wrap ${styles.row}`}>
         <div className={styles.brand}>
-          <span className={styles.crest}>T</span>
-          <span className={styles.name}>
-            Temi <em style={{ fontStyle: 'italic', fontWeight: 300 }}>Tea</em>
-          </span>
+          <Image 
+            src="/images/temitea.png" 
+            alt="Temi Tea Logo" 
+            width={120} 
+            height={32} 
+            priority
+            className={styles.logo}
+          />
         </div>
+
         <ul className={styles.navLinks}>
           <li><a href="#origin">Origin</a></li>
           <li><a href="#tasting">Tasting Notes</a></li>
